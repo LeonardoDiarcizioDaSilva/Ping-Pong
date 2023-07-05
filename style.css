@@ -1,0 +1,29 @@
+:root {
+    --preto: #000;
+    --roxo: #800080;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+
+    background: var(--roxo);
+
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    background: var(--preto);
+}
